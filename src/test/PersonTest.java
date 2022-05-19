@@ -28,6 +28,9 @@ class PersonTest {
 
         p.setEmail("..@.com");
         assertEquals("", p.getEmail());
+
+        p.setEmail("..@.");
+        assertEquals("@", p.getEmail());
     }
 
     @Test
