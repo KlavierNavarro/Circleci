@@ -34,6 +34,12 @@ class PersonTest {
     }
 
     @Test
+    void setEmail2() {
+        p.setEmail("..@.");
+        assertEquals("dfghsh", p.getEmail());
+    }
+
+    @Test
     void setIdCard() {
         p.setIdCard("12345678A");
         assertEquals("12345678A", p.getIdCard());
