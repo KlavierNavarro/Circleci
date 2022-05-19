@@ -30,7 +30,7 @@ class PersonTest {
         assertEquals("", p.getEmail());
 
         p.setEmail("..@.");
-        assertEquals("@", p.getEmail());
+        assertEquals("", p.getEmail());
     }
 
     @Test
